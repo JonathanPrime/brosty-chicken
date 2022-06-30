@@ -195,7 +195,7 @@ function displayCart() {
   var output = "";
   for(var i in cartArray) {
     output += "<tr>"
-      + "<td id='name'>" + cartArray[i].name + "</td>" 
+      + "<td id='name' style='word-break: break-all;'>" + cartArray[i].name + "</td>" 
       + "<td id='value'>(" + cartArray[i].price + ")</td>"
       + "<td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary' data-name=" + cartArray[i].name + ">-</button>"
       + "<input type='number' class='item-count form-control' data-name='" + cartArray[i].name + "' id='cant' value='" + cartArray[i].count + "'>"
@@ -210,10 +210,10 @@ function displayCart() {
   $('.total-count').html(shoppingCart.totalCount());
 
   if (cartArray.length > 0) {
-    let espacio = "%20"
+    let espacio = "%20";
     let textoFormateado = espacio + "(" + "x" + cartArray[i].count + espacio + cartArray[i].name + espacio + "de" + espacio + cartArray[i].price + espacio + ")" + espacio;
     carritoEnTexto = agregaTextoABase(carritoEnTexto, "", textoFormateado);
-    console.log("Esto es carrito ----> " + carritoEnTexto)
+    console.log("Esto es carrito ----> " + carritoEnTexto);
   }
   // Agrega texto a los elemtos que se muestran en el carrito.¡
 }
