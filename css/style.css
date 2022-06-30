@@ -1107,7 +1107,7 @@ input.whats-input[type=text]:focus {
 }
 
 .table td, .table th, .item-count, .total-cart, .total {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .item-count {
