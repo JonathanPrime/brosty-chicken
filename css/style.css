@@ -1259,7 +1259,7 @@ input.whats-input[type=text]:focus {
     font-size: 4rem;
   }
   .service-box .box .sub-services {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   .heading .blog-title {
     font-size: 5rem;
@@ -1274,10 +1274,11 @@ input.whats-input[type=text]:focus {
     width: 24%;
   }
   .heading .title-menu {
-    font-size: 8rem;
+    font-size: 7rem;
   }
   .heading .sub-menu {
-    font-size: 6rem;
+    font-size: 5rem;
+    margin-top: -2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

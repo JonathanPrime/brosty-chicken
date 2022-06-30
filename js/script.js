@@ -255,8 +255,7 @@ function agregaTextoABase(base, textoAlInicio, textoAlFinal) {
 
 displayCart();
 
-
-$('#customers-testimonials-bro').owlCarousel({
+$('#customers-testimonials-pai').owlCarousel({
   interval: false,
   nav: true,
   navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
@@ -280,7 +279,7 @@ $('#customers-testimonials-bro').owlCarousel({
   }
 });
 
-$('#customers-testimonials-pai').owlCarousel({
+$('#customers-testimonials-bro').owlCarousel({
   interval: false,
   nav: true,
   navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
