@@ -739,7 +739,7 @@ p {
 }
 
 .footer {
-  background:linear-gradient(rgba(1, 1, 1, 0.69), rgba(0, 0, 0, 0.69)), url(../images/background-footer.jpg);
+  background:linear-gradient(rgba(1, 1, 1, 0.69), rgba(0, 0, 0, 0.69)), url(../images/background-footer.svg);
   background-size: cover;
   background-position: center;
   padding: 3rem 9% !important;
